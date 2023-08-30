@@ -1,0 +1,99 @@
+.bg-first-screen {
+  background-image: URL("../../public/bg5.gif");
+  background-size: cover;
+  height: 94vh;
+}
+.title-first-screen {
+  font-size: 5rem;
+}
+.container-first-screen {
+  height: 94vh;
+  padding-top: 1rem;
+}
+.scroll-down {
+  width: 10rem;
+}
+.assign {
+  padding-top: 60vh;
+}
+@media (max-width: 1400px) {
+  .assign {
+    padding-top: 40vh;
+  }
+  .bg-first-screen {
+    background-image: URL("../../public/bgs.jpg");
+    height: 70vh;
+  }
+}
+@media (max-width: 1155px) {
+  .assign {
+    padding-top: 30vh;
+  }
+}
+@media (max-width: 992px) {
+  .bg-first-screen {
+    height: 60vh;
+  }
+  .assign {
+    padding-top: 30vh;
+  }
+  .title-first-screen {
+    font-size: 3rem;
+  }
+  .text-assign {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .bg-first-screen {
+    height: 40vh;
+  }
+  .title-first-screen {
+    font-size: 2rem;
+  }
+  .text-assign {
+    font-size: 1rem;
+  }
+  .scroll-down {
+    width: 7rem;
+  }
+}
+@media (max-width: 635px) {
+  .bg-first-screen {
+    height: 30vh;
+  }
+  .assign {
+    padding-top: 20vh;
+  }
+  .title-first-screen {
+    font-size: 1.5rem;
+  }
+  .text-assign {
+    font-size: 0.9rem;
+  }
+  .scroll-down {
+    width: 6rem;
+  }
+}
+@media (max-width: 540px) {
+  .bg-first-screen {
+    height: 25vh;
+  }
+  .assign {
+    padding-top: 15vh;
+  }
+  .title-first-screen {
+    font-size: 1.5rem;
+  }
+  .text-assign {
+    font-size: 0.9rem;
+  }
+  .scroll-down {
+    width: 6rem;
+  }
+}
+@media (max-width: 400px) {
+  .bg-first-screen {
+    height: 19vh;
+  }
+}

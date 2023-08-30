@@ -1,0 +1,25 @@
+.skills-image {
+  width: 10rem;
+}
+.skill-btn {
+  transition: 0.3s;
+  &:hover {
+    border-color: $white-color;
+    margin-bottom: 0.5rem;
+  }
+}
+.skills-row {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 850px) {
+  .skills-image {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .skills-image {
+    width: 5rem;
+  }
+}

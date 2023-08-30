@@ -1,0 +1,30 @@
+.about-me-text {
+  line-height: 2rem;
+}
+@media (max-width: 1155px) {
+  .about-me {
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-me {
+    margin-top: 8rem;
+  }
+}
+@media (max-width: 850px) {
+  .about-me-text {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 635px) {
+  .avatar {
+    width: 10rem;
+  }
+}
+
+@media (max-width: 290px) {
+  .about-me {
+    margin-top: 12rem;
+  }
+}

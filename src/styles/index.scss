@@ -1,0 +1,17 @@
+@import "../colors/colors.scss";
+@import "./firstScreen.scss";
+@import "./secondScreen.scss";
+@import "./thirdScreen.scss";
+@import "./fourthScreen.scss";
+@import "./fifthScreen.scss";
+@import "./header.scss";
+@import "./footer.scss";
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+}

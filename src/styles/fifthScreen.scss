@@ -1,0 +1,28 @@
+.final-container {
+  padding-top: 25vh;
+}
+.final-screen {
+  height: 100vh;
+}
+.final-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.avatar-studying {
+  width: 40rem;
+}
+@media (max-width: 1215px) {
+  .avatar-studying {
+    width: 30rem;
+  }
+  .final-text {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 850px) {
+  .avatar-studying {
+    width: 13rem;
+  }
+  .final-text {
+    font-size: 1rem;
+  }
+}
